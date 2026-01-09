@@ -4,4 +4,3 @@ if [ "$EUID" -eq 0 ]; then
 else
     echo "You are NOT root. Please run as root."
 fi
-
